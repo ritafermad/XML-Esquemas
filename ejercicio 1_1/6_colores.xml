@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<colores>
+  <color>
+    <nombreSvg>Purple</nombreSvg>
+    <codigo>
+      <rgb>#800080</rgb>
+    </codigo>
+  </color>
+  <color>
+    <nombreSvg>Purple</nombreSvg>
+    <codigo>
+      <cmyk>#00ff007F</cmyk>
+    </codigo>
+  </color>
+</colores>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sistemaSolar>
+  <cuerpo>
+    <planeta>Tierra</planeta>
+    <satelite>Luna</satelite>
+  </cuerpo>
+  <cuerpo>
+    <asteroide>Ceres</asteroide>
+  </cuerpo>
+</sistemaSolar>

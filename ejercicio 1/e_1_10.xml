@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<albumesMortadelo>
+  <album fecha="1969">
+    <nombre>El sulfato atómico</nombre>
+  </album>
+  <album fecha="1971">
+    <nombre>La caja de diez cerrojos</nombre>
+  </album>
+  <album fecha="1973">
+    <nombre>El otro yo del profesor Bacterio</nombre>
+  </album>
+  <album fecha="1974">
+    <nombre>Los cacharros majaretas</nombre>
+  </album>
+</albumesMortadelo>
