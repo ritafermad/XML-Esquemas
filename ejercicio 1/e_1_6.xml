@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<musicos>
+<musicos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Lenguajes%20de%20Marcas/Git/XML-Esquemas/ejercicio%201/ej_esq_6.xsd">
   <musico>
     <nombre>Antonio Vivaldi</nombre>
     <fechaNacimiento>4 de marzo de 1678</fechaNacimiento>
