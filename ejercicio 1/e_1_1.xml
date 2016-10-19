@@ -1,2 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<numeros>25</numeros>
+<numeros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="file:///E:/Lenguajes%20de%20Marcas/Git/XML-Esquemas/ejercicio%201/ej_esq_1.xsd">
+25</numeros>
