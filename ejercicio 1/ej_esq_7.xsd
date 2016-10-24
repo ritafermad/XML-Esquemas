@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="agenda">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="contacto" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!--- Elemento contacto-->
+  <xs:element name="contacto">
+   <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre"/>
+        <xs:element ref="telefonoFijo" maxOccurs="unbounded"/>
+        <xs:element ref="telefonoMovil" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <!--Elementos simples-->
+  <xs:element name="nombre" type="xs:string"/>
+  <xs:element name="telefonoFijo" type="xs:string"/>
+  <xs:element name="telefonoMovil" type="xs:string"/>
+</xs:schema>

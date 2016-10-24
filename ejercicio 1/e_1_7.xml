@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<agenda>
+<agenda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Lenguajes%20de%20Marcas/Git/XML-Esquemas/ejercicio%201/ej_esq_7.xsd">
   <contacto>
     <nombre>Ayuntamiento</nombre>
     <telefonoFijo>010</telefonoFijo>
