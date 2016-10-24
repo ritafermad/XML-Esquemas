@@ -1,10 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<sistemaSolar>
-  <cuerpo>
-    <planeta>Tierra</planeta>
-    <satelite>Luna</satelite>
-  </cuerpo>
-  <cuerpo>
-    <asteroide>Ceres</asteroide>
-  </cuerpo>
+ <sistemaSolar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Lenguajes%20de%20Marcas/Git/XML-Esquemas/ejercicio%201/ej_esq_8.xsd">
+ <cuerpo>
+ <planeta>Tierra</planeta>
+ <satelite>Luna</satelite>
+ </cuerpo>
+ <cuerpo>
+ <asteroide>Ceres</asteroide>
+ </cuerpo>
+ <cuerpo>
+ <planeta>Júpiter</planeta>
+ <satelite>Io</satelite>
+ <satelite>Europa</satelite>
+ <satelite>Ganímedes</satelite>
+ <satelite>Calisto</satelite>
+ </cuerpo>
 </sistemaSolar>
