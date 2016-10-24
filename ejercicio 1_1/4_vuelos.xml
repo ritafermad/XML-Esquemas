@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<vuelos>
+<vuelos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Lenguajes%20de%20Marcas/Git/XML-Esquemas/ejercicio%201_1/sch-4.xsd">
   <vuelo>
     <origen>Valencia (VLC)</origen>
     <destino>Londres Heathrow (LHR)</destino>
