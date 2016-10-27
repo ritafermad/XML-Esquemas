@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="contabilidad">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="apunte" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="apunte">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice> <!-- Uso de CHOICE porque no lleva orden-->
+        <xs:element name="gasto"> <!-- Los 2 primeros son ELEMENTOS VACÍOS-->
+                    <xs:complexType />
+        </xs:element>
+        <xs:element name="ingreso">
+                    <xs:complexType />
+        </xs:element>
+        </xs:choice>
+        <xs:element name="fecha" type="xs:string"/>
+        <xs:element name="cantidad">
+          <xs:simpleType>
+            <xs:restriction base="xs:decimal"> <!-- restricciones MONEDA y CANTIDAD-->
+            <xs:fractionDigits value="2"/>
+            </xs:restriction>  
+          </xs:simpleType>
+          </xs:element>
+        <xs:element name="moneda">
+        <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="euro" />
+          <xs:enumeration value="dolar"/>    
+        </xs:restriction>
+        </xs:simpleType>
+        </xs:element>
+        <xs:element name="concepto" type="xs:string"/>
+        </xs:sequence>
+        </xs:complexType>
+        </xs:element>
+        </xs:schema>
+
