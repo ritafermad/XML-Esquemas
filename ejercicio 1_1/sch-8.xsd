@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="mensajes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="mensaje" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mensaje">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="de" type="xs:string"/>
+        <xs:element name="para" type="xs:string"/>
+        <xs:element name="hora" type="xs:dateTime"/> <!--DATE TIME -->
+        <xs:element ref="texto"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="texto">
+    <xs:complexType mixed="true"> <!--Strong se encuentra en medio del texto = MIXED-->
+      <xs:sequence>
+        <xs:element name="strong" type="xs:string" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

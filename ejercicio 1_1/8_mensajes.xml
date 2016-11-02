@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<mensajes>
+<mensajes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/Lenguajes%20de%20Marcas/Git/XML-Esquemas/ejercicio%201_1/sch-8.xsd">
   <mensaje>
     <de>Pepe (pepe@example.com)</de>
     <para>Juan (juan@example.com)</para>
